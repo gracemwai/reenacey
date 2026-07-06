@@ -5,7 +5,7 @@ export default function About() {
     <main className="about-main">
       <section className="about-section">
         
-        {/* PAGE HEADER */}
+        
         <h1 className="about-title">The Reenacy Story</h1>
         <p className="about-subtitle">
           Founded by Racey & Reeny

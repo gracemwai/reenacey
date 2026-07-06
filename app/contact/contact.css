@@ -1,5 +1,5 @@
 .contact-main {
-  background-color: #fbf9f6; /* Warm premium editorial cream background */
+  background-color: #fbf9f6; 
   min-height: 100vh;
   padding: 80px 20px;
   font-family: sans-serif;
@@ -69,7 +69,7 @@
   border-color: #7d221e;
 }
 .submit-button {
-  background-color: #7d221e; /* Reenacy theme red */
+  background-color: #7d221e; 
   color: #ffffff;
   border: none;
   padding: 16px;
@@ -83,5 +83,5 @@
   transition: background-color 0.2s;
 }
 .submit-button:hover {
-  background-color: #611815; /* Subtle premium darken on hover */
+  background-color: #611815; 
 }
