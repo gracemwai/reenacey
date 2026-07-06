@@ -1,0 +1,114 @@
+.features-container {
+  background-color: #fbf9f6; /* Matching your elegant off-white layout tone */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 80px 20px;
+  gap: 40px;
+  border-bottom: 1px solid #e1d5c7;
+}
+.feature-item {
+  text-align: center;
+  max-width: 280px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  color: #7d221e; /* Reenacy signature crimson red */
+  margin-bottom: 15px;
+}
+.feature-item h3 {
+  font-family: 'Georgia', serif;
+  font-size: 1.25rem;
+  color: #2b2520;
+  margin: 0 0 10px 0;
+  font-weight: 500;
+}
+
+.feature-item p {
+  color: #6a6055;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+.footer-container {
+  background-color: #f6f1ea; /* Slightly richer warm tone for the bottom panel */
+  padding: 60px 20px 30px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.footer-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr; /* Spreads layout components perfectly across panels */
+  gap: 60px;
+}
+@media (max-width: 800px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.footer-logo {
+  font-family: 'Georgia', serif;
+  font-size: 1.6rem;
+  color: #7d221e;
+  margin: 0 0 15px 0;
+}
+.footer-text {
+  color: #6a6055;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 360px;
+}
+
+.footer-col h3 {
+  font-family: 'Georgia', serif;
+  font-size: 1.2rem;
+  color: #2b2520;
+  margin: 0 0 20px 0;
+  font-weight: 500;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #6a6055;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+.footer-links a:hover {
+  color: #7d221e; /* Color highlight switch on hover state tracking */
+}
+
+.contact-info {
+  color: #6a6055;
+  font-size: 0.95rem;
+  margin: 0 0 12px 0;
+}
+
+/* 🎯 3. BOTTOM COPYRIGHT STRIP PANEL */
+.footer-bottom {
+  max-width: 1100px;
+  margin: 40px auto 0 auto;
+  padding-top: 25px;
+  border-top: 1px solid #e1d5c7;
+  text-align: center;
+}
+.footer-bottom p {
+  color: #8c8073;
+  font-size: 0.85rem;
+  margin: 0;
+}

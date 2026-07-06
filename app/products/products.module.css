@@ -1,0 +1,61 @@
+.catalogGrid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 35px;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+.catalogCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e1d5c7;
+  border-radius: 40px;
+  height: 55vh;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4solid black;
+  transition: 
+  transform 0.15s ease,
+  box-shadow 0.15s ease;
+
+}
+.catalogCard:hover{
+  transform: translateY(-4px);
+  box-shadow: 6px 6px 6px  6px #7d221e;
+}
+.badge {
+  display: inline-block;
+  background-color: #7d221e;
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 15px 0 0 20px;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+.cardContent {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+.cardTitle {
+  margin: 0 0 10px 0;
+}
+
+.giftPrice {
+  margin: 2 0 15px 0;
+  font-weight: bold;
+}
+.buyButton{
+  background-color:#7d221e ;
+  color: white;
+}
+
