@@ -1,7 +1,7 @@
 .about-main {
   background-color: #fbf9f6; 
   min-height: 100vh;
-  padding: 80px 20px;
+  padding: 48px 20px;
   font-family: sans-serif;
   box-sizing: border-box;
 }
@@ -12,7 +12,8 @@
 }
 .about-title {
   font-family: 'Georgia', serif;
-  font-size: 3rem;
+  font-size: 2rem;
+  line-height: 1.2;
   text-align: center;
   color: #2b2520;
   margin-bottom: 8px;
@@ -20,22 +21,22 @@
 
 .about-subtitle {
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   color: #7d221e; 
   font-family: 'Georgia', serif;
   font-style: italic;
-  margin-bottom: 60px;
+  margin-bottom: 36px;
 }
 .about-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: 50px;
+  grid-template-columns: 1fr;
+  gap: 32px;
   align-items: center;
 }
 
 .about-heading {
   font-family: 'Georgia', serif;
-  font-size: 1.8rem;
+  font-size: 1.45rem;
   color: #2b2520;
   margin-top: 0;
   margin-bottom: 15px;
@@ -44,12 +45,12 @@
   color: #6a6055;
   line-height: 1.7;
   font-size: 1rem;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .about-image-card {
   background-color: #ffffff;
-  padding: 16px;
-  border-radius: 24px;
+  padding: 12px;
+  border-radius: 20px;
   border: 1px solid #e1d5c7;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.02);
   box-sizing: border-box;
@@ -57,10 +58,11 @@
 }
 .founders-image {
   width: 100%;
-  height: 420px;
+  height: auto;
   object-fit: cover; 
   border-radius: 16px;
   margin-bottom: 12px;
+  aspect-ratio: 4 / 3;
 }
 
 .image-caption {
@@ -68,4 +70,48 @@
   font-size: 0.95rem;
   color: #6a6055;
   font-style: italic;
+}
+@media (min-width: 768px) {
+  .about-main {
+    padding: 80px 20px;
+  }
+}
+@media (min-width: 640px) {
+  .about-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-title {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  .about-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 640px) {
+  .about-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .about-heading {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 768px) {
+  .about-paragraph {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .about-image-card {
+    padding: 16px;
+    border-radius: 24px;
+  }
 }
