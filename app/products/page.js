@@ -1,5 +1,5 @@
 import { giftProducts } from '../data';
-import styles from './products.module.css';
+import styles from '../products/products.module.css';
 export default function Products() {
   return (
     <main>

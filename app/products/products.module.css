@@ -58,7 +58,7 @@
   color: white;
 }
 .catalogGrid {
-  grid-template-columns: 1fr;          /
+  grid-template-columns: 1fr;    
 }
 
 @media (min-width: 640px) {
